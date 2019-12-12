@@ -38,5 +38,6 @@ public class CheckUtilsTest {
         System.out.println("Integer isEmpty（一个new出来的值）: "+ CheckUtils.equals(n1, n2));
         System.out.println("Integer isEmpty（都有值）: "+ CheckUtils.equals(n3, n4));
         System.out.println("Integer isEmpty（一个null值）: "+ CheckUtils.equals(n3, null));
+        assert n1.equals(n2);
     }
 }
